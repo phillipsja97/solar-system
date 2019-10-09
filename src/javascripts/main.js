@@ -1,4 +1,9 @@
 import 'bootstrap';
 import '../styles/main.scss';
+import print from './components/printPlanets';
 
-console.error('hi');
+const init = () => {
+  print.printPlanets();
+};
+
+init();
