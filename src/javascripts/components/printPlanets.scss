@@ -2,17 +2,34 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding: 25px;
 }
 
-.individual-card {
+#individual-card {
   padding: 100px;
   border-style: solid;
-  height: 300px;
-  width: 300px;
   color: white;
   background-color: black;
+  margin: 20px;
+  height: 250px;
 }
 
-.planet-card {
-  padding: 50px;
+.card-img-top {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  width: 250px;
+}
+
+.card-text {
+  padding-top: 20px;
+}
+
+.image {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.title {
+  padding-top: 20px;
 }

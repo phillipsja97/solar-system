@@ -57,7 +57,7 @@ const planets = [
   {
     name: 'Uranus',
     imageUrl: 'https://solarstory.net/img/articles/big/planet-uranus-by-voyager-2-in-1986.jpg',
-    description: 'Uranus (from the Latin name Ūranus for the Greek god Οὐρανός) is the seventh planet from the Sun. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System. Uranus is similar in composition to Neptune, and both have bulk chemical compositions which differ from that of the larger gas giants Jupiter and Saturn. For this reason, scientists often classify Uranus and Neptune as "ice giants" to distinguish them from the gas giants. Uranus atmosphere is similar to Jupiters and Saturns in its primary composition of hydrogen and helium, but it contains more "ices" such as water, ammonia, and methane, along with traces of other hydrocarbons.',
+    description: 'Uranus (from the Latin name Ūranus for the Greek god Οὐρανός) is the seventh planet from the Sun. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System. Uranus is similar in composition to Neptune, and both have bulk chemical compositions which differ from that of the larger gas giants Jupiter and Saturn. For this reason, scientists often classify Uranus and Neptune as "ice giants" to distinguish them from the gas giants.',
     isGasPlanet: 'true',
     numberOfMoons: '27',
     nameOfLargestMoon: 'Titania',
