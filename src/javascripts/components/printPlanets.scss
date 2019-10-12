@@ -5,8 +5,8 @@
   padding: 25px;
 }
 
-#individual-card {
-  padding: 100px;
+.individual-card {
+  // padding: 100px;
   border-style: solid;
   color: white;
   background-color: black;
@@ -17,17 +17,8 @@
 .card-img-top {
   display: flex;
   justify-content: center;
-  height: 250px;
-  width: 250px;
-}
-
-.card-text {
-  padding-top: 20px;
-}
-
-.image {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  height: 240px;
+  width: 275px;
 }
 
 .title {

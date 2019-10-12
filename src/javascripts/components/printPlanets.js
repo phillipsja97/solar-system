@@ -9,7 +9,7 @@ const printPlanets = () => {
   for (let i = 0; i < planets.length; i += 1) {
     domString += `
     <div class="planet-card" style="width: 25rem;">
-    <div id="individual-card">
+    <div class="individual-card">
     <h2 class="title text-center">${planets[i].name}</h2>
     <div class="image d-flex justify-content-center">
     <img src="${planets[i].imageUrl}" class="card-img-top" alt="image of ${planets[i].name}">
@@ -32,20 +32,24 @@ const hideText = () => {
   $('.card-text').hide();
 };
 
-const hoverImage = () => {
-  $( () => {
-    $('#individual-card').hover( () => {
-      $('.card-img-top').show();
-    }, () => {
-      $('.card-img-top').hide();
-    });
-  });
-};
+
+// const hover = () => {
+//   let hoverImage = $('.individual-card').toArray;
+//   console.log(hoverImage);
+//   for (let i = 0; i < hoverImage.length; i++) {
+//     if ($('.individual-card').hover( () => {
+//       $('card-img-top').show();
+//     }, () => {
+//       $('.card-img-top').hide();
+//     }
+//     ))
+//   }
+// };
+
 
 export default
 {
   printPlanets,
   hideImage,
   hideText,
-  hoverImage,
 };
