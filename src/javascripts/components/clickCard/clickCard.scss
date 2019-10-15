@@ -1,0 +1,32 @@
+#fullCard {
+  position: absolute;
+  height: 100%;
+}
+
+.card {
+ border-style: solid;
+ padding: 10px;
+
+ .card-header {
+   padding: 30px;
+  }
+
+.card-text {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  }
+
+.card-img-top {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 400px;
+  }
+
+.info {
+  border-style: solid;
+  padding-top: 5px;
+  }
+
+}
+

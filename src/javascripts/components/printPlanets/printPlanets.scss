@@ -11,16 +11,11 @@
   color: white;
   background-color: black;
   margin: 20px;
-  height: 250px;
-}
-
-.card-img-top {
-  display: flex;
-  justify-content: center;
-  height: 240px;
-  width: 275px;
+  height: 275px;
+  *{pointer-events: none;}
 }
 
 .title {
-  padding-top: 20px;
+  padding-top: 25px;
+  margin: 25px;
 }
