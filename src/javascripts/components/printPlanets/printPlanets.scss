@@ -2,17 +2,20 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding: 25px;
 }
 
 .individual-card {
-  padding: 100px;
+  // padding: 100px;
   border-style: solid;
-  height: 300px;
-  width: 300px;
   color: white;
   background-color: black;
+  margin: 20px;
+  height: 275px;
+  *{pointer-events: none;}
 }
 
-.planet-card {
-  padding: 50px;
+.title {
+  padding-top: 25px;
+  margin: 25px;
 }
