@@ -2,6 +2,8 @@ import $ from 'jquery';
 import planet from '../../helpers/data/planets';
 import utilities from '../../helpers/utilities';
 import './clickCard.scss';
+import cardHover from '../cardHover/cardHover';
+import print from '../printPlanets/printPlanets';
 
 
 const reveal = (singlePlanet) => {
@@ -42,7 +44,7 @@ const clickReveal = () => {
     const singlePlanet = event.target.id;
     reveal(singlePlanet);
     $('.searchBar').hide();
-    // $('#planet-card').html('');
+    $('#planet-card').html('');
   });
 };
 
@@ -50,6 +52,10 @@ const closeCard = () => {
   $('body').on('click', '.close', () => {
     $('#fullCard').html('');
     $('.searchBar').show();
+    print.printPlanets();
+    print.hideImage();
+    cardHover.hoverImage();
+    clickReveal();
   });
 };
 
