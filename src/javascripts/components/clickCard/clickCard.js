@@ -44,6 +44,7 @@ const clickReveal = () => {
     const singlePlanet = event.target.id;
     reveal(singlePlanet);
     $('.searchBar').hide();
+    $('#fullCard').css('position', 'absolute');
     $('#planet-card').html('');
   });
 };
